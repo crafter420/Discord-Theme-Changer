@@ -1,20 +1,21 @@
-# Discord-Theme-Changer
-Change the theme of Discord on a web browser by using an userscript manager.
+# Discord Theme
+
 This is a custom theme for Discord that changes the look and feel of the app.
 
-Installation
+## Installation
 
-    Install a script manager like Violentmonkey for your browser.
+1. Install the Violentmonkey browser extension for your browser.
+2. Click on the Violentmonkey icon in your browser's toolbar and select "Create a new script".
+3. Give your script a name and description and paste the following code in the editor:
 
-    Create a new script and paste the following code:
-
+```
 // ==UserScript==
 // @name         Discord Theme Changer
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Change the theme of Discord on a web browser
-// @author       Crafter
-// @match        https://discord.com/channels/@me
+// @author       You
+// @match        https://discordapp.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -35,23 +36,24 @@ Installation
     // Append the style element to the head of the document
     document.head.appendChild(style);
 })();
+```
+3. Replace  /* Put your theme CSS here */  with your CSS code for the theme.
 
-    Replace /* Put your theme CSS here */ with your CSS code for the theme.
+4. Save the script and reload Discord in your browser. The theme should now be applied.
 
-    Save the script and reload Discord in your browser. The theme should now be applied.
-
-Usage
+## Usage
 
 Once the theme is installed, it will change the look and feel of Discord on your browser.
-Notes
 
-    Keep in mind that this is a third-party theme and there's no guarantee that it will work or that it won't cause any issues. Use it at your own risk.
-    The theme will only affect the way Discord looks on your browser and will not affect the way it looks for other users.
-    The changes will be lost when you close the browser.
-    If you want to apply the theme permanently you have to host the css file and change the link of the css file in the script.
+## Notes
 
-License
+- Keep in mind that this is a third-party theme and there's no guarantee that it will work or that it won't cause any issues. Use it at your own risk.
+- The theme will only affect the way Discord looks on your browser and will not affect the way it looks for other users.
+- The changes will be lost when you close the browser.
+- If you want to apply the theme permanently you have to host the css file and change the link of the css file in the script.
 
-This theme is released under the MIT License or any other open source license you prefer.
+Keep in mind that the instructions for installing and using the theme may vary depending on the browser you are using and the version of Violentmonkey. Be sure to refer to the documentation for your specific setup for more detailed instructions.
 
-It's important to note that the theme used in this example is not an official theme and there's no guarantee that it will work, or that it won't cause any issues. Always be careful when installing third-party scripts, and make sure to read the instructions and documentation carefully.
+## License
+
+This theme is released under the [MIT License](https://opensource.org/licenses/MIT) or any other open source license you prefer.

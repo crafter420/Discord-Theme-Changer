@@ -17,7 +17,7 @@ This is customizes theme for Discord web that changes the look and feel of the a
 // @version      0.1
 // @description  Change the theme of Discord on a web browser
 // @author       Crafter
-// @match        https://discord.com/channels/@me
+// @match        *://*/*
 // @grant        none
 // ==/UserScript==
 

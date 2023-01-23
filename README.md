@@ -14,8 +14,8 @@ This is a custom theme for Discord that changes the look and feel of the app.
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Change the theme of Discord on a web browser
-// @author       You
-// @match        https://discordapp.com/*
+// @author       Crafter
+// @match        https://discord.com/channels/@me
 // @grant        none
 // ==/UserScript==
 

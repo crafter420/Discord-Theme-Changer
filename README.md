@@ -1,6 +1,8 @@
-# Discord Theme
+# Discord Theme Changer
 
-This is a custom theme for Discord that changes the look and feel of the app.
+This is customizes theme for Discord web that changes the look and feel of the app.
+
+![Example of the Code running](Example.png)
 
 ## Installation
 

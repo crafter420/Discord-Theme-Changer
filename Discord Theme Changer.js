@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Change the theme of Discord on a web browser
 // @author       Crafter
-// @match        *://*/*
+// @match        *://*.discord.com/*
 // @grant        none
 // ==/UserScript==
 
